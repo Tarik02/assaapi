@@ -1,0 +1,28 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch test",
+			"program": "${workspaceRoot}/out/index.js",
+			"args": [
+				"speedtest"
+			],
+			"stopOnEntry": false,
+            "cwd": "${workspaceRoot}",
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+			"console": "internalConsole",
+			"sourceMaps": true,
+			"outFiles": [
+				"${workspaceRoot}/out/**/*"
+			],
+			"restart": true
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "assaapi",
+	"version": "0.0.1",
+	"description": "Intertelecom ASSA API",
+	"main": "out/index.js",
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"watch": "tsc --watch -p tsconfig.json"
+	},
+	"keywords": [
+		"intertelecom",
+		"assa"
+	],
+	"author": "Tarik02",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"command-line-args": "^4.0.7",
+		"dateformat": "^2.0.0",
+		"jsdom": "^11.1.0",
+		"request": "^2.81.0",
+		"request-promise-native": "^1.0.4"
+	},
+	"devDependencies": {
+		"@types/command-line-args": "^4.0.0",
+		"@types/dateformat": "^1.0.1",
+		"@types/jsdom": "^11.0.1",
+		"@types/request": "^2.0.1",
+		"@types/request-promise-native": "^1.0.6"
+	}
+}

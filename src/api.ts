@@ -67,7 +67,7 @@ export default class API {
 
 		const jsdom = new JSDOM(statistic);
 		const assas = Array.from(jsdom.window.document.querySelectorAll('table.assa')).map(makeStatisticalMap);
-		const used = parseFloat(assas[0][24].value);
+		const used = parseFloat(assas[0][25].value);
 		for (const {key, value} of assas[1]) {
 			const components = value.split(' по ');
 			if (key !== null && components.length === 2) {

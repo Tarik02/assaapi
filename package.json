@@ -2,11 +2,8 @@
 	"name": "assaapi",
 	"version": "0.0.1",
 	"description": "Intertelecom ASSA API",
-	"main": "out/index.js",
-	"scripts": {
-		"build": "tsc -p tsconfig.json",
-		"watch": "tsc --watch -p tsconfig.json"
-	},
+	"main": "src/index.ts",
+	"scripts": {},
 	"keywords": [
 		"intertelecom",
 		"assa"
@@ -18,7 +15,8 @@
 		"dateformat": "^2.0.0",
 		"jsdom": "^11.1.0",
 		"request": "^2.81.0",
-		"request-promise-native": "^1.0.4"
+		"request-promise-native": "^1.0.4",
+		"ts-node": "^4.1.0"
 	},
 	"devDependencies": {
 		"@types/command-line-args": "^4.0.0",

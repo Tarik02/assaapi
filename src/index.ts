@@ -55,11 +55,11 @@ if (!options.user || !options.password) {
 })();
 
 function help() {
-	console.log(`Usage: --user <phone number> --password <password> <action>
-Actions:
-	--help, -h	Show this help
-	--check-speedtest, -c	Check whether speedtest is done or not
-	--speedtest, -t	Do speedtest
-	--statistic, -s	Show statistic (JSON formatted)
-	--pretty-statistic, -r	Show pretty statistic`);
+	console.log(`Использование: assa [--user <номер телефона> --password <пароль>] <действие>
+Действия:
+	--help, -h				Помощь
+	--check-speedtest, -c	Проверить, сделан ли тест скорости
+	--speedtest, -t			Симулировать тест скорости
+	--statistic, -s			Показать статистику (в JSON)
+	--pretty-statistic, -r	Показать статистику в читаемом формате`);
 }

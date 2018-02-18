@@ -71,7 +71,7 @@ export default class API {
 		for (const {key, value} of assas[1]) {
 			const components = value.split(' по ');
 			if (key !== null && components.length === 2) {
-				const count = parseFloat(components[0]);
+				const count = parseFloat(components[0]) || 0;
 				const expires = new Date(...components[1].split('.').reverse());
 				packets.push(new TrafficPacket(key, count, expires));
 			}
